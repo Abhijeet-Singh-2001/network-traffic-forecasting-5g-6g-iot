@@ -1,0 +1,20 @@
+{
+  "project": "Network Traffic Prediction for 5G/6G and IoT Networks",
+  "target": "BYTES_TRANSFERRED at one-second aggregation",
+  "forecast_horizon": "one second ahead",
+  "raw_rows": 6095138,
+  "aggregated_intervals": 21145,
+  "invalid_timestamps": 0,
+  "missing_raw_values": 0,
+  "unexpected_protocol_rows": 2539,
+  "common_evaluation_rows": 3163,
+  "selected_model": "HistGradientBoosting",
+  "selected_model_mae": 10966.63069292717,
+  "tensorflow_available": true,
+  "mlflow_available": true,
+  "current_aggregate_features_interpretation": "Valid for operational t+1 forecasting after interval t closes; not valid for earlier-in-interval prediction.",
+  "azure_ml_deployment": "Not started",
+  "artifact_count": 11,
+  "mlflow_run_count": 10,
+  "artifact_verification": true
+}
